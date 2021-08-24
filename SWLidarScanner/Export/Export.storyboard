@@ -11,7 +11,7 @@
         <!--ARView-->
         <scene sceneID="fha-S1-oH6">
             <objects>
-                <viewController id="dhU-6M-ITv" userLabel="ARView" customClass="ExportViewController" customModule="ExampleOfiOSLiDAR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dhU-6M-ITv" userLabel="ARView" customClass="ExportViewController" customModule="SWLidarScanner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="enk-7a-iqY"/>
                         <viewControllerLayoutGuide type="bottom" id="ctR-zU-xIe"/>
@@ -23,9 +23,20 @@
                             <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLf-qS-Ymx">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </arView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hmq-bK-grk" userLabel="Export">
-                                <rect key="frame" x="184" y="782" width="46" height="30"/>
-                                <state key="normal" title="Export"/>
+                            <button opaque="NO" contentMode="center" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hmq-bK-grk" userLabel="Export">
+                                <rect key="frame" x="121" y="759" width="173" height="54"/>
+                                <color key="backgroundColor" red="0.12255592711930476" green="0.66658491940842457" blue="0.085648149473381022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="tappedExportButton:" destination="dhU-6M-ITv" eventType="touchUpInside" id="3BH-Np-6e5"/>
                                 </connections>
@@ -49,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fml-4v-v6m" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1010" y="-328"/>
+            <point key="canvasLocation" x="1008.6956521739131" y="-328.125"/>
         </scene>
     </scenes>
     <resources>

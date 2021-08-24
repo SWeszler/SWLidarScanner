@@ -17,8 +17,8 @@ struct MenuItem {
 class MenuViewModel {
     private let dataSource = [
         MenuItem (
-            title: "Scan and Export",
-            description: "Export scaned object to .obj file.",
+            title: "CW-10000",
+            description: "Start scanning your sofa.",
             prefix: "Export"
         )
     ]

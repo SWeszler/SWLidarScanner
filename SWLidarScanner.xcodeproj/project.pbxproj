@@ -20,7 +20,8 @@
 		1EF1910525C605A5005064FC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1910425C605A5005064FC /* MenuViewController.swift */; };
 		1EF1910A25C605D2005064FC /* MenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1910925C605D2005064FC /* MenuDataSource.swift */; };
 		1EF1911225C607E3005064FC /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1911125C607E3005064FC /* MenuItemCell.swift */; };
-		9EA420A326AD63220057EA2A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9EA420A226AD63220057EA2A /* .gitignore */; };
+		4B5B453626D51CFB0068A477 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B453526D51CFB0068A477 /* LoginViewController.swift */; };
+		4BCF580B26D50D4C0080BD5A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCF580A26D50D4C0080BD5A /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +40,9 @@
 		1EF1910425C605A5005064FC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		1EF1910925C605D2005064FC /* MenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataSource.swift; sourceTree = "<group>"; };
 		1EF1911125C607E3005064FC /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		4B5B453526D51CFB0068A477 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4BCF580A26D50D4C0080BD5A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		9EA420A126AD50890057EA2A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9EA420A226AD63220057EA2A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,6 @@
 		1EEE224D25A7039B00706DE8 = {
 			isa = PBXGroup;
 			children = (
-				9EA420A226AD63220057EA2A /* .gitignore */,
 				1EEE225825A7039B00706DE8 /* SWLidarScanner */,
 				1EEE225725A7039B00706DE8 /* Products */,
 			);
@@ -85,12 +86,14 @@
 			children = (
 				1EEE225925A7039B00706DE8 /* AppDelegate.swift */,
 				1EEE225F25A7039B00706DE8 /* Main.storyboard */,
+				4B5B453526D51CFB0068A477 /* LoginViewController.swift */,
 				1EF1910425C605A5005064FC /* MenuViewController.swift */,
 				1EF1911125C607E3005064FC /* MenuItemCell.swift */,
 				1EF1910925C605D2005064FC /* MenuDataSource.swift */,
 				1E34C94325D3237E00800E8D /* Export */,
 				1EF190FB25C60444005064FC /* Common */,
 				1EEE226225A7039C00706DE8 /* Assets.xcassets */,
+				4BCF580A26D50D4C0080BD5A /* Media.xcassets */,
 				1EEE226425A7039C00706DE8 /* LaunchScreen.storyboard */,
 				1EEE226725A7039C00706DE8 /* Info.plist */,
 				9EA420A126AD50890057EA2A /* README.md */,
@@ -166,10 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA420A326AD63220057EA2A /* .gitignore in Resources */,
 				1E34C94525D3239E00800E8D /* Export.storyboard in Resources */,
 				1EEE226625A7039C00706DE8 /* LaunchScreen.storyboard in Resources */,
 				1EEE226325A7039C00706DE8 /* Assets.xcassets in Resources */,
+				4BCF580B26D50D4C0080BD5A /* Media.xcassets in Resources */,
 				1EEE226125A7039B00706DE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +192,7 @@
 				1EF1911225C607E3005064FC /* MenuItemCell.swift in Sources */,
 				1E470F9125AF932000D8D918 /* ARFrame+Ext.swift in Sources */,
 				1E59318A25D48BD2002CCCC9 /* ARMeshGeometry+Ext.swift in Sources */,
+				4B5B453626D51CFB0068A477 /* LoginViewController.swift in Sources */,
 				1E34C94A25D323A700800E8D /* ExportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +342,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9WK854FHMM;
+				DEVELOPMENT_TEAM = 3B879GB3ZN;
 				INFOPLIST_FILE = SWLidarScanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianweszler.SWLidarScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comfort-works.SWLidarScanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,7 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9WK854FHMM;
+				DEVELOPMENT_TEAM = 3B879GB3ZN;
 				INFOPLIST_FILE = SWLidarScanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianweszler.SWLidarScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comfort-works.SWLidarScanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
